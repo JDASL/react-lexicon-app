@@ -23,3 +23,11 @@ a {
   color: rgb(127, 127, 127);
   font-family: "Bodani";
 }
+
+.Synonyms {
+  display: block !important;
+  color: rgb(10, 84, 158) !important; /* Ensure text is visible */
+  list-style: none;
+  font-size: 16px;
+  padding: 10px;
+}
