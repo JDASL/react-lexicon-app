@@ -26,6 +26,7 @@ a {
 
 .Synonyms {
   display: block !important;
+  visibility: visible;
   color: rgb(10, 84, 158) !important; /* Ensure text is visible */
   list-style: none;
   font-size: 16px;
