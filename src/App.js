@@ -2,7 +2,6 @@ import React from "react";
 import logo from "./logo.png";
 import "./App.css";
 import Lexicon from "./Lexicon";
-import axios from "axios";
 
 export default function App() {
   return (
