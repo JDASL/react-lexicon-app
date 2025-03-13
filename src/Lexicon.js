@@ -25,9 +25,15 @@ export default function Lexicon() {
 
   return (
     <div className="Lexicon">
-      <form onSubmit={search}>
-        <input type="search" onChange={handleKeywordChange} />
-      </form>
+      <section className="search-bar">
+        <h2>What word do you want to look up?</h2>
+        <form onSubmit={search}>
+          <input type="search" onChange={handleKeywordChange} />
+        </form>
+        <div className="hint">
+          Suggested words: omega, society, international...
+        </div>
+      </section>
       <Results results={results} />
     </div>
   );

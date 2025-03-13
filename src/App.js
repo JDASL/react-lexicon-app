@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.png";
 import "./App.css";
 import Lexicon from "./Lexicon";
+import "./Lexicon.css";
 
 export default function App() {
   return (
