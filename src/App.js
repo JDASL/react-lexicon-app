@@ -3,6 +3,7 @@ import logo from "./logo.png";
 import "./App.css";
 import Lexicon from "./Lexicon";
 import "./Lexicon.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
   return (

@@ -4,6 +4,8 @@ body {
 
 .App {
   color: rgb(186, 223, 255);
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .App-logo {
